@@ -1,0 +1,40 @@
+{
+  "name": "waplus-premium-bot",
+  "version": "1.0.0",
+  "description": "Premium WhatsApp starter bot for new developers, powered by @musteqeem/baileys.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "check": "node scripts/check.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "waplus",
+    "plugins",
+    "ai",
+    "github",
+    "starter"
+  ],
+  "author": "Musteqeem",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@musteqeem/baileys": "^1.0.7",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "node-webpmux": "^3.2.1",
+    "pino": "^8.17.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "private": true
+}
